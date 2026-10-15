@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
-df = pd.read_excel(r"C:\Users\sxphi\OneDrive\Desktop\Programacion\streamlit\YARDAS_PASOS_DATOS_TICS.xlsx", index_col=0)
+df = pd.read_excel("YARDAS_PASOS_DATOS_TICS.xlsx", index_col=0)
 
 st.header("5 columnas")
 st.dataframe(df.head())
